@@ -1,0 +1,12 @@
+Types 
+
++ Unary overloading
+	Works with one operand. 
+	Operand becomes caller & hence no args are reuired.
+	// Ex :- className operator ++ ();
+
++ Binary overloading
+	
+
+
++ Global overloading

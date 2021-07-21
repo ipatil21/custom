@@ -1,0 +1,85 @@
+
+0------------------------------------------                cd  /PROJ/oip/SyDK/20150211_SyDK_5.0.12/ADK/NAC 
+                ln -s /PROJ/SDK/MG_20141117_M10_6.1.35/MV_Tools 
+
+
+bitbake -c clean sys-conn-afwk && bitbake -c clean conn-connectivity-function && bitbake -c clean conn-connectivity-afwk-hmi && bitbake -c clean conn-connectivity-app && bitbake -c clean conn-connectivity-hmi && bitbake sys-conn-afwk && bitbake conn-connectivity-function && bitbake conn-connectivity-afwk-hmi && bitbake conn-connectivity-hmi && bitbake conn-connectivity-app
+
+
+bitbake -c clean veh-vehicle-afwk-function && bitbake -c clean veh-vehicle-function && bitbake -c clean vehicle-hmi && bitbake veh-vehicle-afwk-function && bitbake veh-vehicle-function && bitbake vehicle-hmi
+
+
+bitbake sys-conn-afwk && bitbake conn-connectivity-function && bitbake conn-connectivity-afwk-hmi && bitbake conn-connectivity-app && bitbake conn-connectivity-hmi 
+
+
+
+bitbake -c clean sys-portal-browser-afwk && bitbake -c clean ovip-sys-brw-portal && bitbake -c clean brw-portal-app && bitbake -c clean brw-portal-hmi && bitbake -c clean brw-portal-hmi-afwk && bitbake -c clean ovip-sys-brw-function-test && bitbake -c clean ovip-sys-brw-plugins && bitbake -c clean sys-brw-afwk-test
+
+
+
+
+bitbake sys-portal-browser-afwk && bitbake ovip-sys-brw-portal && bitbake brw-portal-app && bitbake brw-portal-hmi && bitbake brw-portal-hmi-afwk && bitbake ovip-sys-brw-function-test && bitbake ovip-sys-brw-plugins && bitbake sys-brw-afwk-test
+
+
+bitbake -c clean sys-conn-afwk-test && bitbake -c clean conn-connectivity-function-test && bitbake -c clean ovip-core-conn-tbm-test && bitbake sys-conn-afwk-test && bitbake conn-connectivity-function-test && bitbake ovip-core-conn-tbm-test
+
+ 	
+
+soc-cor-webrowser-emb-registry-ids.bb
+
+bitbake -c clean sys-portal-browser-afwk && bitbake -c clean ovip-sys-brw-portal && bitbake -c clean brw-portal-app && bitbake -c clean brw-portal-hmi && bitbake -c clean brw-portal-hmi-afwk && bitbake sys-portal-browser-afwk && bitbake ovip-sys-brw-portal && bitbake brw-portal-hmi-afwk && bitbake brw-portal-hmi && bitbake brw-portal-app 
+
+
+bitbake -c clean veh-vehicle-afwk-function && bitbake -c clean veh-vehicle-function && bitbake -c clean vehicle-hmi
+
+	bitbake veh-vehicle-afwk-function && bitbake veh-vehicle-function && bitbake ovip-sys-veh-alarm-systemd && bitbake ovip-sys-veh-drive-app-systemd && bitbake vehicle-hmi
+
+bitbake -c clean task-core-conn-tbm && bitbake task-core-conn-tbm
+
+
+bitbake -c clean veh-vehicle-afwk-function && bitbake -c clean veh-vehicle-function && bitbake -c clean vehicle-hmi && bitbake -c clean ovip-sys-veh-alarm-systemd && bitbake -c clean ovip-sys-veh-drive-app-systemd
+
+
+
+bitbake -c clean sys-conn-afwk && bitbake -c clean conn-connectivity-function && bitbake -c clean conn-connectivity-afwk-hmi && bitbake -c clean conn-connectivity-app && bitbake -c clean conn-connectivity-hmi && bitbake -c clean sys-portal-browser-afwk && bitbake -c clean ovip-sys-brw-portal && bitbake -c clean brw-portal-app && bitbake -c clean brw-portal-hmi && bitbake -c clean brw-portal-hmi-afwk && bitbake -c clean veh-vehicle-afwk-function && bitbake -c clean veh-vehicle-function && bitbake -c clean vehicle-hmi && bitbake -c clean sys-image && bitbake sys-image
+
+
+bitbake -c clean ovip-int-firmware-version
+
+"**********************************************************************************************************************************"
+./create_DevKit_From_SyDK_Mirror.sh -ovip && cd /home/aniket/DevKits/MV_SYSINT_DailyBuild_CW08_01_20150216 && source 
+./setupBuildEnv.sh && bitbake sys-image
+
+"**********************************************************************************************************************************"
+bitbake -c clean sys-conn-afwk && bitbake -c clean conn-connectivity-function && bitbake -c clean conn-connectivity-afwk-hmi && bitbake -c clean conn-connectivity-app && bitbake -c clean conn-connectivity-hmi && bitbake -c clean sys-portal-browser-afwk && bitbake -c clean ovip-sys-brw-portal && bitbake -c clean brw-portal-app && bitbake -c clean brw-portal-hmi && bitbake -c clean brw-portal-hmi-afwk && bitbake -c clean sys-image && bitbake sys-image
+
+
+
+
+uidg6958@uidg6958:~$ #svn st | grep ? | awk '{print $2}' | xargs svn add
+uidg6958@uidg6958:~$ #svn st | grep ! | awk '{print $2}' | xargs svn delete
+uidg6958@uidg6958:~$ #svn ci -m " baseline 5.2.11  mergerd to svn"
+
+https://kchjsvni01.kpit.com/svn/R0007379/branches/Outputs/Development/V5/Integration/SYS_SOC
+
+sudo mount -t nfs KCHJCONTI.kpit.com:/Softwares/ccm_home /Softwares/ccm_home
+
+
+http://10.10.116.160/svn/R0007379/branches/Outputs/Development/V5/Integration/SYS_SOC
+
+
+
+/home/aniket/DevKits/MV_SYSINT_Synergy_TestImage_Mainline_5.0.1_31122014/tmp/deploy/images
+
+
+
+
+wget http://www.scootersoftware.com/RPM-GPG-KEY-scootersoftware
+
+
+bitbake -c clean sys-conn-afwk-test && bitbake -c clean conn-connectivity-function-test && bitbake -c clean ovip-sys-brw-plugins && bitbake -c clean sys-brw-afwk-test && bitbake sys-conn-afwk-test && bitbake conn-connectivity-function-test && bitbake ovip-sys-brw-plugins && bitbake sys-brw-afwk-test 
+
+
+bitbake -c clean sys-conn-afwk-test && bitbake -c clean conn-connectivity-function-test && bitbake sys-conn-afwk-test && bitbake conn-connectivity-function-test
+
+bitbake -c clean ovip-sys-brw-plugins && bitbake -c clean sys-brw-afwk-test && bitbake ovip-sys-brw-plugins && bitbake sys-brw-afwk-test

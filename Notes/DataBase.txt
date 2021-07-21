@@ -1,0 +1,310 @@
+=========================================================================
+SKILLSET
+	-> OOPS Concept, C/C++, DataStructure.
+	-> Linux - OS Fundamentals, Scripting, Vi/Vim editor, Commands, 
+			   Make files, Debugging tools(Remote Debugging), 
+			   GNU auto tools. GNU tools, GDB, Val-grind.
+	-> Linux - System Programming, IPC, Multi - threading/Processing.
+	-> C++ - Cpp11, Cpp14, Cpp17, STL, BoostLibraries.
+	-> Others - SVN, GIT (Linux & windows).
+=========================================================================
+
+C++ AND C LANGUAGE.
+
+	1.  Copy constructor code.
+	2.  Shallow copy code.
+	3.  Deep Copy code.
+	4.  Types of inheritance with example.
+	5.  Virtual keyword.
+	6.  Diamond Problem code with explanation. ( virtual inheritance ).
+	7.  Virtual table and virtual v table ptr concept in detail.
+	8.  Modes of inheritance, inheritance chart.
+	9.  Major pillars of OOPS, with example real time. 
+	10. Minor pillars of OOPS, with example real time.
+	11. object slicing. 
+	12. RTTI. Runtime type identification.
+	13. Internals of arrays, pointers and references.
+	14. Compilation flow.
+	15. This pointer. syntax and concept in detail.
+	16. Function overloading -  Binary and unary with few examples.
+	17. Types of operator which cant be overloaded.
+	18. Friend class and friend function.
+	19. virtual destructor, constructor ... concept.
+	20. Pure virtual concept in detail.
+	21. Pure virtual constructor and destructor concept.
+	23. static, const, extern, volatile in c and c++.
+	24. Mutable keyword.
+	25. Placement new operator.
+	26. Templates theory in detail. example place holder etc.
+	27. Exception handling theory and code.
+	28. UML model ling.
+	29. typedef example.
+	30. macros VS function. explain all.
+	31. in line function in detail with example.
+	32. structure in c++ VS structure in c.
+	33. structure in c++ VS class in c++.
+	34. structure in c VS class in c++.
+	35. new VS malloc
+	36. free versus delete.
+	37. Bitwise operators.
+	38. function pointers and callback functions.
+	39. functors.
+	40. Assignment operator.
+	41. File handling Operation in c and c++.
+	42. OOPS :- Major & Minor pillars with example
+
+==> Design patterns :- All types & four pattern perfectly with ex.
+-------------------------
+
+
+==> STL
+-------------------------
+
+
+==> C++ 11
+-------------------------
+1. Std_Initialiser
+2. 
+
+
+==> Linux and OS
+-------------------------
+1. GDB.
+2. Basic commands.
+3. Val-grind.
+4. Multi-threading.
+5. All IPC's.
+ 
+===> Data structures.
+-------------------------
+1.  Stack.
+2.  Queues.
+3.  Bubble sort.
+4.  Quick sort. 
+5.  Insertion sort.
+6.  Merge sort.
+7.  Selection sort.
+8.  shell/ heap optional.
+9.  SLL.
+10. DLL.
+11. CLL.
+12. binary search.
+13. linear search.
+14. Trees theory.
+15. Graphs theory.
+16. In-oder, post order, Pre-order traversal.
+17. Time complexity.
+18. Space complexity.
+
+===> STL
+------------------------
+
+===> QT/QML
+------------------------
+
+	1. Info about QT-version
+	2. Multi-threading in QT	
+
+
+++ Interviews attended.
+-----------------------
+	
+	+ KPIT
+		* Nov 2014
+		* Very basic
+	
+	+ Nvdia
+		* Array programs.
+		* Find duplicate letter/Number in array.
+		* String reversal program.
+		* int a[]; versus int a[10], performance issue, which one is the better.
+		* Some power electronics concept.
+		* Program. Input : "AAABBBBCCCCDEE" Output : "AAA3BBBB4CCCC4D1EE2" 
+		
+	+ Opus
+		Very Basic
+		
+	+ Whirlpool
+		Embedded question
+			
+	+ Harman
+		Programs:
+			* To print linked list in reverse order.
+			* Given a folder path. Calculate size of each file recursively ?
+			* Virtual - Ins out.
+			* Multiprogramming/Parallel Programming.
+			* BST.
+	
+	+ Financial technologies
+ 			1. GDB commands
+ 			2. Linux comm. U name -r.Hibernate command.
+ 			2. Virtual Concept in detail.
+					How many virtual tables per class & object. How many virtual pointers per class and object ?
+					
+ 			3. STL experience.
+					Gain some Stl knowledge. All stl container introductory.
+					
+			4. Linux Commands.
+					Commands to check date, system time =, system reboot, and system power off, system details. ?
+					
+			5. Private Inheritance.	
+  		
+			6. How shared memory works internally ?
+				Api details ? semget and all ?
+			
+			7. Unix / Linux - Posix API's.	
+			8. About my current office project.
+			9. About my research project. 
+  
+	+ 3DPLM / Geometric.
+		More focus on puzzles.
+  
+	+ Viz Experts IIT. 
+		Find loop in linked list. and remove the same;
+		
+	+ Tata technologies.
+  		GDB, OS concepts.	C++ basics script shell.
+  		
+	+ G.S Lab
+		Basic questions on Polymorphism/virtual. Creating objects of the class on stack and using pointer ? 
+		Difference in calling of functions. And after adding virtual keyword what happens ?
+	
+	+ Inteligzn/Siemens
+		
+	+ QuickHeal (28/06/2019)
+		Difference between const char *ptr, const char const *ptr, const char const *ptr; Is third one the compiler error ?
+		String copy function with all the corner cases covered. 
+			a. Check Src & Des string are null or not. 
+			b. No memory allocation inside the function. 
+			c. If string is not null-terminated.
+			d. cpy only certain char from src to destination
+			e. if src string memory is greater than des string memory.
+		Some basic concepts on virtual functions, inheritance & constructor call sequence & destructor call sequence.
+	
+	+ Pubmatic
+	
+	+ Goldmansach's
+	
+	+ Ransomware
+	
+	+ WS Semi-conductor
+		1. Ways to load QML file from main.cpp. 
+			Mainly two ways found QQmlEngine(.load), QQuickView(show)
+		2. Ways to call c++ function from QML.
+			Mainly two ways found Q_Invokable, Q_Property
+		3. If class is not written, how to call c++ function from qml.
+			May be global q-property
+		4. Ways to communicate between c++ & qml
+		5. Proxies to communicate between middle ware & HMI
+		6. QT-dbus concept, serialization & de-serialization
+		7. QmlregisterType, un-creatable type, creatable type. Error if try to create object of un-creatable type
+		8. Types of windows in QT
+		9. Explain virtual functions (up-casting & down-casting)
+		10. What is polymorphism & types of polymorphism(static/dynamic)
+		11. What is Q_ENUM?
+
+	+ Increment / Decrement operator overloading
+	+ MACRO, FLOAT/INT Division
+	+ Stack Using Pointer
+	+ Find a loop in linked list and remove	
+	+ Print/reverse linked list recursive way
+	+ Pattern printing program.
+	+ Matrix reversal, transpose & more such examples
+	+ File reading, writing QT & c++ api programs
+	
+Programming Q C++
+	1. Restrict dynamic allocation in C++ but allow stack allocation.
+	2. Restrict stack allocation in c++ but allow dynamic allocation.
+	3. Overload operator '+' in such a way that '100 + obj' is allowed.
+	4. Overload assignment operator in such a way that 'obj1=obj2=obj3' works.
+	5. Assignment of copy-ctor vs assignment operator suggested by 'Devendra'.
+	
+
+Storage classes in 'C'
+	+ Storage Classes in 'C' decides the following things
+		1. The physical location of variable.
+		2. The scope of the variable.
+
+	+ Automatic 
+	+ Extern
+	+ Static
+	+ Register
+		
+CopyConstructor		
+	/** Copy constructor syntax **/
+		const className &ref
+
+	+ Why we don't use pointers in copy constructor ?
+
+		+ Since the copy constructor is generated by the compiler when not specified by the user,
+		  it make sense to use the same signature for user-defined 
+		  copy constructor that is used for compiler-defined copy constructor.
+		  If someone define a constructor that take a pointer instead of a reference, 
+		  then if the caller forget to take the address of the object from which the new object is to be created,
+		  then instead of using user-constructor with a pointer, 
+		  the compiler generated copy constructor (with a reference) would be used.
+
+		+ reference acts like a const pointer that is implicitly dereferenced.
+		  Because references always “point” to valid objects, and can never be pointed to deallocated memory, 
+		  references are safer to use than pointers. Thus the reference should generally be preferred. 
+		  Pointers should generally only be used in situations where references are not sufficient .
+		  So, to prevent memory corruption issues References are preferred to pointers.
+		  
+		+ First, const references are often used as function parameters because const references
+		  allow us to access but not change the value of an object, 
+		  they can be used to give a function access to an object, 
+		  but give assurance to caller that the object will not be changed at all by the function.
+		  
+In-line functions
+	• All the functions defined inside the class are treated as inline functions.
+	• Similar to macros used in C language.
+	• In-line keyword can be used without classes also.
+	
+Operator overloading
+	+ Unary overloading
+		Works with one operand. 
+		Operand becomes caller & hence no args are required.
+		// Ex :- className operator ++ ();
+
+	+ Binary overloading
+	
+
+	+ Global overloading
+	
+Virtual Destructor
+	Output - :
+		Base Ctor
+		TDerv Ctor
+		 **** 
+		TDerv Dtor
+		TBase Dtor
+
+
+	#include <iostream>
+	using namespace std;
+
+	class TBase
+	{
+		public:
+			TBase() { cout << "Base Ctor" << endl; }
+			virtual ~TBase() { cout << "TBase Dtor" << endl; }
+	};
+
+	class TDerv: public TBase
+	{
+		public:
+			TDerv() { cout << "TDerv Ctor" << endl; }
+			~TDerv(){ cout << "TDerv Dtor" << endl; }
+	};
+
+	int main() 
+	{
+		TBase* ptr = (TBase*)new TDerv;
+		cout << " **** " << endl;
+		delete ptr;
+		
+		// your code goes here
+		return 0;
+	}
+
+		

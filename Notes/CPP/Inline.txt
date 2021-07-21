@@ -1,0 +1,5 @@
++ Inline functions
+	• All the functions defined inside the class are treated as inline functions.
+	• Similar to macros used in C language.
+	• Inline keyword can be used without classes also.
+	•

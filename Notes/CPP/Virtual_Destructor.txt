@@ -1,0 +1,35 @@
+
+Output - :
+	Base Ctor
+	TDerv Ctor
+	 **** 
+	TDerv Dtor
+	TBase Dtor
+
+
+#include <iostream>
+using namespace std;
+
+class TBase
+{
+    public:
+        TBase() { cout << "Base Ctor" << endl; }
+        virtual ~TBase() { cout << "TBase Dtor" << endl; }
+};
+
+class TDerv: public TBase
+{
+    public:
+        TDerv() { cout << "TDerv Ctor" << endl; }
+        ~TDerv(){ cout << "TDerv Dtor" << endl; }
+};
+
+int main() 
+{
+    TBase* ptr = (TBase*)new TDerv;
+    cout << " **** " << endl;
+    delete ptr;
+    
+	// your code goes here
+	return 0;
+}
