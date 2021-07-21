@@ -1,0 +1,29 @@
+﻿30th May 2019.
+
+Coding Challenge – Problem Statement
+
+
+Dog Shelter:
+Mr. Singhania has opened a shelter for orphan dogs. To ensure their well-being, he hired N expert care-takers. Each care taker works in shifts to cover certain overlapping intervals of day time. 
+Consider that the shelter is open from time 0 until time 10^9 (1000000000) each day. Each care taker shift can be described by two integers i.e. start time and end time. For example, if start time t=4 and end time t=7 the care taker covers 3 units of time.
+Unfortunately, Mr. Singhania had losses in stock market and has to cut down K care takers to cover losses. You need to write a program to calculate the maximum amount of time that can be covered by remaining care takers (after removing K care takers). At least one care taker should be present at any point in this covered time. Below are the input and output file formats for your program.
+
+Input file caretakers.in:
+The first line is N and K separated by space, where:
+ : 1≤K≤N
+ : N≤100000
+ : K≤100
+Each next N lines are start and end times of caretakers (two integers in the range 0…10^9 (1000000000)). Shifts of different caretakers can overlap.
+
+Output file caretakers.out:
+Single number giving the maximum amount of time that can still be covered after removing K caretakers.
+
+SAMPLE INPUT:
+3 2
+6 13
+12 20
+7 19
+
+SAMPLE OUTPUT:
+12
+In this example, the below caretakers should be removed 6…13 and 12…20.
