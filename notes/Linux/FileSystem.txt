@@ -1,0 +1,41 @@
++ Unix filesystems
+	• Everthing is file on unix.
+	• A filesystem is the methods and DS than an OS uses to keep track of files on physical disk.
+	• The central concepts are superblock, inode , data block, directory block , and indirection block. 
+	• Superblock contains metadata for filesystems, inode contain meta data for files.
+
++ Superblock :-
+	• Blocks in the file system
+	• No of free blocks in the file system
+	• Inodes per block group
+	• Blocks per block group
+	• No of times the file system was mounted since last fsck.
+	• Mount time 
+	• UUID of the file system
+	• Write time
+	• File System State (ie: was it cleanly unounted, errors detected etc)
+	• The file system type etc(ie: whether its ext2,3 or 4).
+	• The operating system in which the file system was formatted
+
++ Read about superblock corruption and backup copy.
++ How to check contents of superblock.
+
++ Where the filename is stored
+	• In most Unix-based file systems, the filename is stored as a name/inode lookup table in the "data" section of the directory containing the file (	  that is, the space on the disk where a normal file would store its data).
+
+
++ Inode number :-
+	• Inode number also called as index number
+	• File types ( executable, block special etc )
+	• Permissions ( read, write etc )
+	• UID ( Owner )
+	• GID ( Group )
+	• FileSize
+	• Time stamps including last access, last modification and last inode number change.
+	• File deletion time
+	• Number of links ( soft/hard )
+	• Location of file on harddisk.
+	• Some other metadata about file.
+
++ Directory block :-
+	•	

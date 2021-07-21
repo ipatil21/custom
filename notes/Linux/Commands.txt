@@ -1,0 +1,17 @@
+1. pcs status : Command to check whether node is added in cluster or not.
+
+2. grep -rnw '/path/to/somewhere/' -e 'pattern'
+    -r or -R is recursive,
+    -n is line number, and
+    -w stands for match the whole word.
+    -l (lower-case L) can be added to just give the file name of matching files.
+
+3. scp /root/File/To/Send root@IP:/Where/To/Send
+
+4. uname -r
+
+5. whoami
+
+6. pwd
+
+7. 

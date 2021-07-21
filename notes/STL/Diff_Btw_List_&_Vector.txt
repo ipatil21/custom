@@ -1,0 +1,35 @@
+***** std::vector vs std::list *****
+
++ INSERTION AND DELETION
+
+	+  	Insertion and Deletion in List is very efficient as compared to 
+		vector because to insert an element in list at start, end or middle, 
+		internally just a couple of pointers are swapped.
+	
+	+ 	Whereas, in vector insertion and deletion at start or middle will make all 
+		elements to shift by one. 
+		Also, if there is insufficient contiguous memory in vector at the time of insertion, 
+		then a new contiguous memory will be allocated and all elements will be copied there.
+
+	+ 	So, insertion and deletion in list is much efficient than vector in c++.
+
++ RANDOM ACCESS:
+
+	+ 	As List is internally implemented as doubly linked list, 
+		therefore no random access is possible in List.
+		
+	+ 	It means, to access 15th element in list we need to iterate through first 14 elements in list one by one.
+
+	+   Whereas, vector stores elements at contiguous memory locations like an array. 
+		Therefore, in vector random access is possible i.e. 
+		we can directly access the 15th element in vector using operator [] i.e.
+
+		std::vector<int> vec(20);
+		vec[15] = 10;
+		1
+		2
+		std::vector<int> vec(20);
+		vec[15] = 10;
+		
+	+	So, we can not use std::list with some of the STL algorithm that needs the 
+		random access operators like std::sort.

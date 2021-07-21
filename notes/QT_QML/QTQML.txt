@@ -1,0 +1,16 @@
+QT/QML Interview questions.
+	
+	1. Which is the latest QT framework, and which version you are using ?
+		-> The latesT QT framework is 5.7 and we are using QT 4.8.
+		
+	2. What is moc ? 
+		-> Meta Object Compiler. MOC tool parses c++ header file. myClass.h and creates moc_myClass.cpp file.  
+		   Among other things, meta-object code is required for the signals and slots mechanism, 
+		   the run-time type information, and the dynamic property system.
+		
+		
+	3. Is virtual inheritance supported by class derived by QObject ? If yes why ? If no why ?
+		->  
+
+
+

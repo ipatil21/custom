@@ -1,0 +1,32 @@
+
+
++ Major Pillars:	HEMA
+	+ Hierarchy
+	+ Encapsulation
+	+ Modularity
+	+ Abstraction
+
++ Abstraction
+	+ Getting only essential things and hiding unnecessary details is called abstraction.
+	+ Abstraction separates code into interface and implementation. 
+	+ So while designing your component, you must keep interface independent of the implementation 
+		so that if you change underlying implementation then interface would remain intact.
+	+ In this case whatever programs are using these interfaces, 
+		they would not be impacted and would just need a recompilation with the latest implementation.
+	
++ Encapsulation
+	+ The idea is "don't tell me how you do it; just do it." 
+	+ 
+	
++ Modularity
+	+ The act of portioning a program into individual components.
+	+ Logical modularity or physical modularity.
+	+ Dividing a program in small modules, which can be compiled independently.
+	
++ Hierarchy
+	+ Dependency
+	+ Inheritance
+	+ Aggregation
+	+ Run time polymorphism
+	+ Compile time polymorphism
+	+ Composition (Has a relation)

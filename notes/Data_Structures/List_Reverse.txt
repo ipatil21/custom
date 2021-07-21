@@ -1,0 +1,45 @@
+
+
++ Reversing the list w/o recursion.
+
+	void func_rev(struct Node **head)
+	{
+		struct Node* current = *head;
+		struct Node* next = NULL;
+		
+		while(NULL != current)
+		{
+			/** Extract next node address **/
+			next = current->next;
+			
+			/** Here actual reverse happens **/
+			current->next = prev;
+			
+			/** Iterate prev pointer to next node **/
+			prev = current;
+			
+			/** Iterate current pointer to next node **/
+			current = current -> next;
+		}
+		
+		/** Make head point to the first node **/
+		*head = prev;
+	}
+	
++ Reversing the list with recursion
+
+	void reverse_list(Node* current, Node* prev, struct Node **head_ref)
+	{
+		if(NULL == current->next)
+		{
+			*head = current;
+			current->next = prev;
+		}
+		else
+		{
+			struct Node* next = current->next;
+			current->next = prev;		
+			reverse_list(next, current, head);	
+		}
+	}	
+

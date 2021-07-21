@@ -1,0 +1,13 @@
+
+
++ Minor Pillars CPP
+	+ Polymorphism 
+	+ Concurrency
+	+ Persistence
+	
++ Concurrency
+	+ This problem arises when multiple threads simultaneously access same object.
+	+ 
+	
++ Persistence
+	+ It is the property by which object maintains its state across time & space.

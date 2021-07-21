@@ -1,0 +1,10 @@
+
++ Storage Classes in 'C' decides the following things
+	1. The physical location of variable.
+	2. The scope of the variable.
+
+
++ Automatic 
++ Extern
++ Static
++ Register
